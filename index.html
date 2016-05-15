@@ -68,10 +68,112 @@
             top: 0;
             left: 0;
             z-index: 100;
-            opacity: .9%;
+            opacity: .9;
         }
         
+        #logo{
+            margin: 20px;
+            float: left;
+            width: 200px;
+            height: 60px;
+            background: url(http://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repeat center;
+        }
         
+        nav {
+            float: right;
+            padding: 35px 20px 20px 0px;
+        }
+        
+        #menu-icon{
+            display: hidden;
+            width: 40px;
+            height: 40px;
+            background: url(http://www.w3newbie.com/wp-content/uploads/icon.png) center;
+        }
+        
+        a:hover#menu-icon{
+            border-radius: 4px 4px 0 0;
+        }
+        
+        ul{
+            list-style: none;
+        }
+        
+        nav ul li{
+            display: inline-block;
+            float: left;
+            padding: 10px;
+        }
+        
+        .current {
+            color: #FFF;
+            text-decoration: underline;
+        }
+        
+        section{
+            width: 29%;
+            float:left;
+            margin: 2% 2%;
+            text-align: center;
+        }
+        
+        .clear{
+            clear: both;
+        }
+        
+        article{
+            float: left;
+            margin: 0 auto;
+            width: 50%;
+            height: auto;
+            padding: 4%;
+        }
+        
+        footer{
+            background: #333333;
+            width: 100%;
+            overflow: hidden;
+            opacity: .90;
+        }
+        
+        footer p, footer h3{
+            color: #FFF;
+        }
+        
+        footer p a{
+            color: #FFF;
+            text-decoration: none;
+        }
+        
+        ul.social li{
+            display: inline;
+        }
+        
+        ul.social img{
+            height: 50px;
+        }
+        
+        footer.second{
+            border-top: 1px solid #4D4E50;
+            background-color: #333333;
+            max-height: 60px;
+            text-align: center;
+            opacity: 0.95;
+        }
+        
+        @media screen and (max-width: 478px){
+            body{
+                position: absolute;
+            }
+        }
+        @media screen and (max-width: 478px){
+            header{
+                position: absolute;
+            }
+            @menu-icon{
+                display: inline-block;
+            }
+        }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script src="jquery.blueberry.js"></script>
@@ -99,17 +201,6 @@
         </nav>
 
     </header>
-
-<!--This creates slider type thing for picture movements.
-    <div id="doc">
-        <div id ="content">
-        <div class="blueberry">
-            <ul class="slides"> 
-            <li> </li>
-            </ul>
-            </div>
-        </div>
-        </div>-->
 
 <div class="clear"> </div>
 <div class="clear">
@@ -144,7 +235,7 @@
 </footer>
 
 <footer class="copyright">
-<p>&copy;2016 Krupal Pandya</p>
+<p> <a href="#"></a>&copy;2016 Krupal Pandya</p>
 </footer>
     </body>
 </html>
