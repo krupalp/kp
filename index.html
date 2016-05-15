@@ -1,16 +1,150 @@
-<!DOCTYPE>
-<html>
-  <title>
-    Krupal Pandya
-  </title>
-  <body>
-    <title>
-      About me
-    </title>
-    <p1>
-      I am currently a rising senior at The University of Georgie double majoring in Computer Science and Economics.
-      The combination of these two degrees is the result of my interests in blending Economics and Computer Science to bridge the gap between technology and business. 
-      By exploring these two separate streams, I hope to reach a point where ideas and concepts flow together to form a river.
-    </p1>
-  </body>
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Krupal Pandya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blueberry.css"/>
+    <style type="text/css">
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;   
+        }
+        
+        body{
+            background: #f0f0f0;
+            font: 14px/20px Georgia, San-Serif;
+            Color: #555;
+            margin: 0;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 180%;
+            line-height: 120%;
+            padding: 5% 0%;
+        }
+        
+        h2{
+            text-decoration: underline;
+            line-height: 280%;
+            padding-left: 2%;
+        }
+        
+        h3{
+          line-height: 110%;
+            padding: 5% 0%;
+            
+        }
+        
+        p {
+            padding: 1%;
+        }
+        
+        img{
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            width: auto;
+        }
+        
+        a{
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+        
+        header{
+            background: #405580;
+            width: 100;
+            height: 86px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            opacity: .9%;
+        }
+        
+        
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="jquery.blueberry.js"></script>
+    
+    <script>
+    $(window).load(function()   {
+        $('.blueberry').blueberry();
+                });
+    
+    </script>
+    </head>
+<body>
+    <header>
+        <a href="#" id="logo"></a>
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+            <li><a href="#" class="current">Home</a> </li>
+            <li><a href="#">Trainers</a> </li>
+            <li><a href="#">Plans</a> </li>
+            <li><a href="#">Pricing</a> </li>
+            <li><a href="#">Facility</a> </li>
+            <li><a href="#">Contact</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+<!--This creates slider type thing for picture movements.
+    <div id="doc">
+        <div id ="content">
+        <div class="blueberry">
+            <ul class="slides"> 
+            <li> </li>
+            </ul>
+            </div>
+        </div>
+        </div>-->
+
+<div class="clear"> </div>
+<div class="clear">
+<section> 
+    <h1>Past Projects</h1>
+    <!--    insert some picture reference tag that can be clicked on-->
+    <p>By clicking on the image above, you can view projects that I have done in the past</p>
+</section>
+    <section> 
+    <h1>Current Projects</h1>
+<!--    insert some picture reference tag that can be clicked on-->
+    <p>By clicking on the image above, you can view projects that I have done in the past</p>
+</section>
+</div>
+<footer> 
+<section>
+<h3><b>Contact me:</b></h3>
+    <p><b><a href=mailto:krupal24p@gmail.com>krupal24p@gmail.com</a></b>
+    <br><b>(404)-402-0747</b></br></p>
+</section>
+
+<section>
+<h3><b>Find me at these places:</b></h3>
+    <ul class="social"> 
+    <li><a href="https://www.facebook.com/krupal.pandya.3"><img src="http://www.anaka.net/images/facebook.png"</a></li>
+    <li><a href="https://www.facebook.com/krupal.pandya.3"><img src="http://www.anaka.net/images/facebook.png"</a></li>
+    <li><a href="https://www.facebook.com/krupal.pandya.3"><img src="http://www.anaka.net/images/facebook.png"</a></li>
+    <li><a href="https://www.facebook.com/krupal.pandya.3"><img src="http://www.anaka.net/images/facebook.png"</a></li>
+    <li><a href="https://www.facebook.com/krupal.pandya.3"><img src="http://www.anaka.net/images/facebook.png"</a></li>
+    </ul>
+</section>
+</footer>
+
+<footer class="copyright">
+<p>&copy;2016 Krupal Pandya</p>
+</footer>
+    </body>
 </html>
