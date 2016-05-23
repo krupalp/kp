@@ -12,11 +12,12 @@ a{
 }
 
 a:link, a:visited{
-    
+    color: #CF5C3F;
 }
 
 a:hover, a:active{
-    
+    color: #CF5C3F;
+    background-color: #FFF;
 }
 
 .body{
@@ -57,7 +58,7 @@ a:hover, a:active{
 }
 
 .mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited{
-    background-color: #CF5CF3;
+    background-color: #CF5C3F;
     color: #FFF:
     text-shadow: none;
 }
@@ -81,3 +82,66 @@ a:hover, a:active{
     float: left;
 }
 
+.topcontent{
+ background-color: #FFF;
+ border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+    margin-top: 2px;
+}
+
+.bottomcontent{
+     background-color: #FFF;
+ border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2px;
+}
+
+.top-sidebar{
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+     border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+    margin-left: 3%;
+}
+.middle-sidebar{
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+     border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+    margin: 1%  0 2% 3%;
+    padding: 2% 3%;
+}
+.bottom-sidebar{
+    width: 27%;
+    float: left;
+    background-color: #FFF;
+     border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+    margin-left: 3%;
+}
+
+.mainFooter{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2% 0;
+}
+
+.mainFooter p{
+width: 92%;
+margin: 2% auto;
+color:#FFF;    
+
+}
